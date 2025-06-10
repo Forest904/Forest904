@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+### My GitHub Stats
+
+![Snake Game](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg)
+
 <!--
 **Forest904/Forest904** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
