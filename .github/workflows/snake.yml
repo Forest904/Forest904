@@ -9,16 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: platypus-interactive/github-profile-readme-snake@v1
+      - uses: actions/checkout@v4 # Use the latest checkout action
+      - uses: Platane/snk@v3 # <--- CHANGE THIS LINE
         id: snake_generator
         with:
           github_user_name: ${{ github.repository_owner }}
           # The following options are customizable:
-          # snake_animation_duration: 500 # Default is 500 (milliseconds)
-          # snake_animation_frame_delay: 20 # Default is 20 (milliseconds)
-          # snake_animation_path: ./assets/snake.svg # Default is ./assets/snake.svg
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # Not usually needed unless you hit API rate limits
+          # outputs: |
+          #   dist/github-snake.svg
+          #   dist/github-snake-dark.svg?palette=github-dark
+          #   dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Push to repo
         run: |
