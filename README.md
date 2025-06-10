@@ -2,13 +2,9 @@
 
 ### My GitHub Stats
 
-![Snake Game](https://github.com/Forest904/Forest904/blob/output/github-contribution-grid-snake.svg)
+###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/your-username/your-username/main/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/your-username/your-username/main/dist/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/your-username/your-username/main/dist/github-snake.svg" />
-</picture>
+![snake gif](https://github.com/Forest904/Forest904/blob/output/github-snake-dark.svg)
 <!--
 **Forest904/Forest904** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
